@@ -8,7 +8,7 @@ public class MyQueue {
 	}
 	
 	public void enQueue(MyNode newNode) {
-		MyNode.addAtEnd(newNode);
+		MyNode.add(newNode);
 	}
 	 
 	public void printStack() {
