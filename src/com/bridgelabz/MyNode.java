@@ -94,4 +94,23 @@ public class MyNode<K extends Object> implements InterfaceNode {
 			this.printLinkedList();
 			
 			}
+		// To Appending Node
+		
+		public void addAtEnd(MyNode newNode) {
+			if(this.head == null) {
+				this.head = newNode;
+				this.tail = newNode;
+				newNode.next= null;
+			}
+			else
+			{
+				this.tail.next = newNode;
+	            newNode.next =null;
+	           this.tail = this.tail.next;
+				
+			}
+			 System.out.println("\nLinked list after appending "+newNode.key);
+			 this.printLinkedList();
+			
+		}
 }

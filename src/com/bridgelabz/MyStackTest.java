@@ -5,7 +5,7 @@ import java.util.Stack;
 public class MyStackTest {
 
 	public static void main(String[] args) {
-	
+		 System.out.println("Stack");
 		MyStack myStack = new MyStack();
 		MyNode<Integer> firstNode = new MyNode<Integer>(70);
         MyNode<Integer> thirdNode = new MyNode<Integer>(56);
@@ -28,6 +28,20 @@ public class MyStackTest {
        // To pop
        System.out.println("\nAfter pop  ");
        myStack.pop();
+       
+      
+       System.out.println("\nQueue");
+       
+       MyQueue myQueue = new MyQueue();
+       myQueue.enQueue(firstNode);
+       myQueue.enQueue(secondNode);
+       myQueue.enQueue(thirdNode);
+
+    // To diplay the queue
+       System.out.println("\nAfter EnQueue  ");
+       myQueue.printStack(); 
+       
+       
        
 	}
 
