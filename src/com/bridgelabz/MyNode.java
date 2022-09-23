@@ -1,4 +1,4 @@
-package com.bridgelabz;
+ package com.bridgelabz;
 
 public class MyNode<K extends Object> implements InterfaceNode {
 	public static MyNode peak;

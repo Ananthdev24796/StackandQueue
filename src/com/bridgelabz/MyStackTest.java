@@ -42,7 +42,7 @@ public class MyStackTest {
        myQueue.printStack(); 
        System.out.println("\nAfter DeQueue  ");
        myQueue.deQueue();
-       myQueue.printStack();
+       myQueue.printStack(); 
        
 	}
 
