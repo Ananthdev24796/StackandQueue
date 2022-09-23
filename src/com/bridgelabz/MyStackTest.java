@@ -18,6 +18,17 @@ public class MyStackTest {
        // To diplay the Stack
         System.out.println("\nAfter pushing three ");
        myStack.printStack(); 
+       
+       
+       // To peek
+       System.out.println("\nAfter peak ");
+       myStack.peak();
+       
+       myStack.printStack(); 
+       // To pop
+       System.out.println("\nAfter pop  ");
+       myStack.pop();
+       
 	}
 
 }

@@ -15,6 +15,12 @@ public class MyStack {
 		public void printStack() {
 			MyNode.printLinkedList();
 		}
+		public MyNode peak() {
+			return MyNode.getHead();
+		}
+		public void  pop() { 
+			MyNode.pop();
+		}
 	
 	
 }

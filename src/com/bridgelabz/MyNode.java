@@ -1,6 +1,7 @@
 package com.bridgelabz;
 
 public class MyNode<K extends Object> implements InterfaceNode {
+	public static MyNode peak;
 	private K key;
 	private MyNode next;
 	private MyNode head;
@@ -81,4 +82,16 @@ public class MyNode<K extends Object> implements InterfaceNode {
 			
 		}
 
+       // peak
+		public MyNode peak() {
+		return head ; 
+}
+		// Delete First element of linked list
+		
+		public void pop() {
+			this.head = head.getNext();
+			System.out.println("\n After Deleting 1st Element");
+			this.printLinkedList();
+			
+			}
 }
