@@ -40,8 +40,9 @@ public class MyStackTest {
     // To diplay the queue
        System.out.println("\nAfter EnQueue  ");
        myQueue.printStack(); 
-       
-       
+       System.out.println("\nAfter DeQueue  ");
+       myQueue.deQueue();
+       myQueue.printStack();
        
 	}
 

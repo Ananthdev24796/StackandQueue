@@ -113,4 +113,16 @@ public class MyNode<K extends Object> implements InterfaceNode {
 			 this.printLinkedList();
 			
 		}
+		// To Remove
+		public void popAtEnd(MyNode newNode)
+		{
+				MyNode tempNode = head;
+				while(!tempNode.next.equals(tail)) {
+					tempNode=tempNode.next;	
+				}
+						
+				tempNode.next=null;
+		
+			}
 }
+

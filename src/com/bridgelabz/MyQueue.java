@@ -14,4 +14,9 @@ public class MyQueue {
 	public void printStack() {
 		MyNode.printLinkedList();
 	}
+	 
+	public void deQueue() { 
+		MyNode.popAtEnd(MyNode);
+		           
+	}
 }

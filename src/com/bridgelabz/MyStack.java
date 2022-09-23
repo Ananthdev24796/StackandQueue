@@ -18,7 +18,7 @@ public class MyStack {
 		public MyNode peak() {
 			return MyNode.getHead();
 		}
-		public void  pop() { 
+		public void pop() { 
 			MyNode.pop();
 		}
 	
